@@ -3,7 +3,7 @@ package com.qubikapp.app.ws.security;
 import com.qubikapp.app.ws.SpringApplicationContext;
 
 public class SecurityConstants {
-	public static final long EXPIRATION_TIME=864000000;// 10 dana
+	public static final long EXPIRATION_TIME=1;// 10 dana-864000000
 	public static final String TOKEN_PREFIX="Bearer ";
 	public static final String HEADER_STRING="Authorization";
 	public static final String SIGN_UP_URL="/users";
